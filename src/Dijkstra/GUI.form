@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Dijkstra.GUI">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1059" height="358"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="218ee">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="579" height="11"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <grid id="e4a95" binding="sciana" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="9" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="579" height="28"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="bevel-raised"/>
+        <children/>
+      </grid>
+      <grid id="d73f5" layout-manager="GridLayoutManager" row-count="1" column-count="7" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="3" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="etched"/>
+        <children>
+          <component id="9ae75" class="javax.swing.JButton" binding="butDodajWierzcholek">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <maximum-size width="16" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="icons/circle.png"/>
+              <iconTextGap value="4"/>
+              <label value=""/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value=""/>
+              <toolTipText value="Dodaj Wierzchołek"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="b39c3" class="javax.swing.JButton" binding="butDodajKrawedz">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="33" height="32"/>
+                <maximum-size width="16" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="icons/line.png"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="44627" class="javax.swing.JButton" binding="butWylicz">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <maximum-size width="16" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <defaultCapable value="true"/>
+              <icon value="icons/calculate_icon.gif"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="61e3" class="javax.swing.JButton" binding="butZapisz">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <maximum-size width="16" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="icons/floppy_disk_blue.png"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c5636" class="javax.swing.JButton" binding="butNowy">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <maximum-size width="16" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="icons/blank_page.png"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="79be7" class="javax.swing.JButton" binding="butCofnij">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <maximum-size width="16" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <icon value="icons/undo.jpg"/>
+              <inheritsPopupMenu value="false"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="44285" class="javax.swing.JButton" binding="butDoPrzodu">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <maximum-size width="16" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <icon value="icons/redo.jpg"/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <hideActionText class="java.lang.Boolean" value="false"/>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="e020a">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="dc4db" class="javax.swing.JRadioButton" binding="rbDodajWierzcholek">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value="Dodaj Wierzcholek"/>
+        </properties>
+      </component>
+      <component id="a5152" class="javax.swing.JRadioButton" binding="rbDodajKrawedz">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="110" height="46"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Dodaj Krawędź"/>
+        </properties>
+      </component>
+      <component id="5d179" class="javax.swing.JLabel" binding="labPodajWage">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="171" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Podaj wagę krawędzi"/>
+        </properties>
+      </component>
+      <component id="b4e0e" class="javax.swing.JSpinner" binding="spinWaga">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="54462" class="javax.swing.JLabel" binding="labPodajWierzcholekPoczatkowy">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="171" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Podaj wierzchołek początkowy"/>
+        </properties>
+      </component>
+      <component id="5198e" class="javax.swing.JLabel" binding="labPodajWierzcholekKoncowy">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="171" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Podaj wierzchołek końcowy"/>
+        </properties>
+      </component>
+      <component id="39fe5" class="javax.swing.JSpinner" binding="spinWiePocz">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c96da" class="javax.swing.JSpinner" binding="spinWieKon">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="368cc" class="javax.swing.JLabel" binding="labAktualnaKopia">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="171" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value=""/>
+          <text value="Aktualna kopia 0/0"/>
+        </properties>
+      </component>
+      <component id="c5b17" class="javax.swing.JLabel" binding="labWspolrzedne">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Współrzędna x = 0, Współrzędna y = 0  "/>
+        </properties>
+      </component>
+      <component id="91ba9" class="javax.swing.JButton" binding="butOblicz">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Oblicz"/>
+        </properties>
+      </component>
+      <component id="345f0" class="javax.swing.JButton" binding="butZapisz1">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="171" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Zapisz"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="a5152"/>
+      <member id="dc4db"/>
+    </group>
+  </buttonGroups>
+</form>
